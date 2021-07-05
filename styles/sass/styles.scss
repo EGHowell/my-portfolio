@@ -1,0 +1,17 @@
+// Setup Snippet
+@import 'setup';
+
+// @import google fonts;
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
+
+// Short form variable code
+@import 'variables';
+@import 'mixins';
+
+// Sitewide CSS
+@import 'general';
+
+// Main CSS
+
+// Media queiries
+@import 'media';

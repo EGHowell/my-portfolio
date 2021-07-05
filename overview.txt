@@ -1,0 +1,115 @@
+porfolio-site
+https://www.rixtrixx.com/ 
+
+tech assess
+https://rixtrixx.github.io/juno-mock-site/
+
+Js project 2
+https://rixtrixx.github.io/Top-10-anime/
+
+project 1
+https://rixtrixx.github.io/eric-howell-project1/
+
+project 2
+https://rixtrixx.github.io/eric-howell-project2/
+
+project 3
+https://this-so-hot-rightnow.netlify.app/
+
+project 4
+https://concert-accountant.netlify.app/
+
+
+PSEUDO CODE
+
+HTML include:
+1. nav bar with each section a tags, w social links
+2. header page w my info and details
+3. latest work sections
+4. skills I can do
+5. about me section, including cover letter and resume and social links
+6. I am available for next projects (contact me) directing to form
+8. info about hours on coding, overall projects completed, courses completed
+7. what I am currently doing right now after bootcamp
+8. what people say about me
+9. contact me form, include address, email, phone number
+10. footer copyright NMProject
+
+
+CSS include:
+
+icons:
+
+   facebook
+   instagram
+   inkedin
+   github
+
+   phone
+   email
+   location
+
+   HTML
+   CSS
+   sass
+   js
+   react
+   firebase
+   jquerey
+
+   square
+   triangle
+   circles
+   lots of dots
+   lines
+   kapow effect
+   squigly line
+
+   transform: matrix3d(-0.819438, -0.573168, 0, 0, 0.573168, -0.819438, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: right bottom 0px;
+	
+
+
+
+color:
+ dark dark purple: 7100e5
+ dark purple: 7f00ff
+ light purple: e5cbff
+ another light purple: cb99ff
+ light pink: f1e5ff
+ pink: fc00ff
+ dark pink: e100ff
+ light lighgt blue: eff7ff
+ dark grey: c2c2c2
+ light grey: dfdfdf
+ red: e91d61
+
+1. find shapes and icons to spread throughout project.
+
+Header page: radiant purple to pink background, white lettering, include picture of me
+
+Latest work page: white background: black and purple letters(screenshot images of site index page) grid maybe
+
+skills page: light purple background, white and purple interchanging elements
+
+about me page: white background, another picture of me
+
+available page: dark pruple background, white element
+
+accomplishments page: white background pruple circles elements
+
+what I am doing page: light purple, styled similiarly to projects page, using gray, dark pruple, pink, red, black
+
+what people say page: white background, dunno yet
+
+location page: include google map locations
+bottom half dark pruple, white form box
+
+footer: dark purple
+
+
+
+Javascript include:
+1. api google map, having my location on screen
+2. creating a form that allows users to send an email to me
+3. mobile menu to direct user throughout sections on page
+4. fade in effect of info elements when user reaches certain sections on pages
