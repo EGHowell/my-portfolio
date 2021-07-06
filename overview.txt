@@ -12,6 +12,7 @@ https://rixtrixx.github.io/eric-howell-project1/
 
 project 2
 https://rixtrixx.github.io/eric-howell-project2/
+Being a huge One Piece fan, I always wished there was a site showcasing specific details about the manga.  As the manga has over 1000 chapters, its becomes quite hard to backtrack and find certain chapters. 
 
 project 3
 https://this-so-hot-rightnow.netlify.app/
@@ -66,6 +67,28 @@ icons:
    squigly line
 
    transform: matrix3d(-0.819438, -0.573168, 0, 0, 0.573168, -0.819438, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: right bottom 0px;
+
+      <!-- -->
+
+   <!-- <i class="fab fa-facebook-square"></i>
+   <i class="fab fa-github-square"></i>
+   <i class="fab fa-linkedin"></i>
+   <i class="fab fa-twitter-square"></i> 
+
+   <i class="fas fa-phone-volume"></i>
+   <i class="fas fa-envelope"></i>
+   <i class="far fa-compass"></i>
+
+   <i class="fab fa-html5"></i>
+   <i class="fab fa-css3"></i>
+   <i class="fab fa-sass"></i>
+   <i class="fab fa-js"></i>
+   <i class="fab fa-react"></i>
+-->
+
+   
+
+
 	
 
 
@@ -109,7 +132,6 @@ footer: dark purple
 
 
 Javascript include:
-1. api google map, having my location on screen
 2. creating a form that allows users to send an email to me
 3. mobile menu to direct user throughout sections on page
 4. fade in effect of info elements when user reaches certain sections on pages
