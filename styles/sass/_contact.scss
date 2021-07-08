@@ -1,0 +1,108 @@
+.map {
+   background-image: url(/assets/location.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   height: 40vh;
+}
+
+.contact-all {
+   background-color: $dark-purple;
+}
+
+.contact {
+   background-color: white;
+   display: flex;
+   position: relative;
+   bottom: 100px;
+   padding: 60px;
+   border-radius: 45px;
+   h2 {
+      margin-top: 0;
+   }
+}
+
+.contact-info {
+   width: 40%;
+   position: relative;
+   left: 10%;
+}
+.contact-info ul li{
+   display: flex;
+   i {
+      align-self: center;
+      margin-right: 30px;
+      padding: 10px;
+      color: white;
+      border-radius: 50%;
+      font-size: 20px;
+   }
+}
+
+.fa-compass,
+.fa-phone-volume {
+      background: linear-gradient(to right, $footer-purple 0%, $footer-purple 50%, $dark-pink 50%, $dark-pink 100%);
+}
+
+.fa-envelope {
+   background: linear-gradient(to right, $dark-pink 0%, $dark-pink 50%, $footer-purple 50%, $footer-purple 100%);
+}
+
+.contact-info ul {
+   padding-left: 0;
+}
+
+.contact-mail {
+   position: relative;
+   left: 20%;
+   form {
+      display: flex;
+      flex-direction: column;
+      input[type=email], input[type=text], textarea {
+         margin: 15px 0;
+         padding: 15px;
+         border-radius: 5px;
+         border: none;
+         background-color: $light-grey;
+      }
+      ::placeholder {
+         color: black;
+      }
+   }
+}
+
+textarea {
+   resize: none;
+}
+
+.contact-mail button {
+   background-color: $dark-purple;
+   color: white;
+   border-radius: 5px;
+   width: 150px;
+   border: none;
+   padding: 10px 0px;
+   margin: 0 auto;
+}
+
+.contact-mail button:hover {
+   background-color: $dark-pink;
+}
+
+footer {
+   background-color: $footer-purple;
+   p {
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 0;
+      color: white;
+   }
+   ul {
+      display: flex;
+   }
+   img {
+      display: block;
+      margin: 0 auto;
+      width: 65px;
+   }
+}

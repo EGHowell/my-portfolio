@@ -15,125 +15,181 @@
 </head>
 
 <body>
-<nav>
-   <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#latest-work">Portfolio</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#about-me">About</a></li>
-      <li><a href="#contact">Contact</a></li>
-   </ul>
-</nav>
 
    <header id="home">
-      <nav>
-         <ul>
-            <li><a href="#latest-work">Portfolio</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#about-me">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-         </ul>
+      <div class="wrapper">
+         <nav>
+            <img src="./assets/logo2.svg" alt="eric howell logo">
 
-         <ul>
-            <li><a href="https://twitter.com/EricHow311"><i class="fab fa-twitter-square"><span class="sr-only">twitter</span></i></a></li>
-            <li><a href="https://github.com/RixTrixx"><i class="fab fa-github-square"><span class="sr-only">github</span></i></a></li>
-            <li><a href="https://www.linkedin.com/in/eric-howell-513656b9/"><i class="fab fa-linkedin"><span class="sr-only">linkedin</span></i></a></li>
-            <li><a href="https://www.facebook.com/eric.howell.98"><i class="fab fa-facebook-square"><span class="sr-only">facebook</span></i></a></li>
-         </ul>
-      </nav>
+            <ul class="nav-bar">
+               <li><a href="#latest-work">Portfolio</a></li>
+               <li><a href="#skills">Skills</a></li>
+               <li><a href="#about-me">About</a></li>
+               <li><a href="#contact">Contact</a></li>
+            </ul>
 
-      <div class="header-main">
-         <div class="intro-info">
-            <h2>Hello.</h2>
-            <h1>I Am Eric Howell</h1>
-            <h2>Front-End Web Developer</h2>
-            <p>The singular theme that has always been present throughout my life and has been drilled into my core is that no matter the differing circumstances, you must always adapt and never stop improving! So that one day, however long in the future that may be, you will have the wherewithal to handle every personal challenge that life can and WILL throw at you. That to me, is the key to thrive in the world of coding.</p>
+            <ul class="icons">
+               <li><a href="https://twitter.com/EricHow311"><i class="fab fa-twitter-square"><span
+                           class="sr-only">twitter</span></i></a></li>
+               <li><a href="https://github.com/RixTrixx"><i class="fab fa-github-square"><span
+                           class="sr-only">github</span></i></a></li>
+               <li><a href="https://www.linkedin.com/in/eric-howell-513656b9/"><i class="fab fa-linkedin"><span
+                           class="sr-only">linkedin</span></i></a></li>
+               <li><a href="https://www.facebook.com/eric.howell.98"><i class="fab fa-facebook-square"><span
+                           class="sr-only">facebook</span></i></a></li>
+            </ul>
+         </nav>
+
+         <div class="header-main">
+            <div class="intro-info">
+               <h2>Hello.</h2>
+               <h1>I Am <span>Eric Howell</span></h1>
+               <h2>Front-End Web Developer</h2>
+               <p>The singular theme that has always been present throughout my life and has been drilled into my core
+                  is that no matter the differing circumstances, you must always adapt and never stop improving! So that
+                  there may come a day in the future where you will have the wherewithal to handle every personal
+                  challenge that life WILL throw at you. That to me is the key to thrive in the world of coding!</p>
+            </div>
+
+            <div class="intro-img">
+               <div>
+                  <img src="" alt="Eric Howell smiling for portfolio">
+               </div>
+            </div>
          </div>
 
-         <div class="intro-img">
-            <img src="" alt="">
-         </div>
-      </div>
+         <div class="intro-buttons">
+            <a href="#contact">
+               <div>
+                  Let's Talk
+               </div>
+            </a>
 
-      <div class="intro-buttons">
-         <a href="#contact">Let's Talk</a>
-         <a href="#latest-work">Portfolio</a>
+            <a href="#latest-work">
+               <div>
+                  Portfolio
+               </div>
+            </a>
+         </div>
       </div>
    </header>
 
    <main>
-      <section class="latest-work-all">
+      <nav class="scroll-menu">
+         <ul>
+            <a href="#home">
+               <li>Home</li>
+            </a>
+            <a href="#latest-work">
+               <li>Portfolio</li>
+            </a>
+            <a href="#skills">
+               <li>Skills</li>
+            </a>
+            <a href="#about-me">
+               <li>About</li>
+            </a>
+            <a href="#contact">
+               <li>Contact</li>
+            </a>
+         </ul>
+      </nav>
+
+      <section class="latest-work-all wrapper">
          <div class="latest-work" id="latest-work">
             <div class="section-header">
-               <h2>Latest <span>Work</span></h2>
+               <h2>Latest <span>Work</span><img src="/assets/christmas-stars.png"
+                     alt="red stars coming of of the header like magic"></h2>
                <h3>Portfolio</h3>
             </div>
 
             <div class="portfolio-projects">
-               <div>
-                  <a href="https://rixtrixx.github.io/juno-mock-site/"><img src="./assets/techtest.png"
-                        alt="on load image of eric howell's juno mock site"></a>
-                  <div class="latest-work-info">
-                     <p>2 March 2021</p>
-                     <p>A website showcasing HTML, CSS, and responsive web design. It was a test given to applicants to
-                        complete in order to enter the Juno College Web development Bootcamp</p>
+               <div class="proj1" id="project">
+                  <img src="./assets/techtest.png"
+                        alt="on load image of eric howell's juno mock site">
+                  <div class="latest-work-info id1">
+                     <p><span>TechTest</span> 2 March 2021</p>
+                     <p>HTML | CSS</p>
+                     <p>This was a test for us to match the look of a given PSD in order to enter the Juno College Web development Bootcamp</p>
+                     <div class="code-buttons">
+                        <a href="https://rixtrixx.github.io/juno-mock-site/">LIVE</a>
+                        <a href="https://github.com/RixTrixx/juno-mock-site">CODE</a>
+                     </div>
                   </div>
                </div>
 
-               <div>
-                  <a href="https://this-so-hot-rightnow.netlify.app/"><img src="./assets/project3.png"
-                        alt="on load image of eric howell's site what's hot?"></a>
-                  <div class="latest-work-info">
-                     <p>25 June 2021</p>
-                     <p>A fully functional website showcasing, HTML, CSS, and React, that allows users to check on what
-                        is trending across social media. The site updates daily thanks to the TMDB API, so it will
+               <div class="proj2" id="project">
+                  <img src="./assets/project3.png"
+                        alt="on load image of eric howell's site what's hot?">
+                  <div class="latest-work-info id2">
+                     <p><span>What's Hot?</span> 25 June 2021</p>
+                     <p>HTML | CSS | REACT</p>
+                     <p>Check on what is trending across social media. The site updates daily thanks to the TMDB API, so it will
                         always stay up to date!</p>
+                     <div class="code-buttons">
+                        <a href="https://this-so-hot-rightnow.netlify.app/">LIVE</a>
+                        <a href="https://github.com/RixTrixx/eric-howell-project3">CODE</a>
+                     </div>
                   </div>
                </div>
 
-               <div>
-                  <a href="https://rixtrixx.github.io/Top-10-anime/"><img src="./assets/jsproject2.png"
-                        alt="on load image of eric howell's site top 10 anime"></a>
-                  <div class="latest-work-info">
-                     <p>17 February 2021</p>
-                     <p>This site showcases HTML, CSS, and JQUERY. The purpose of this site is to let users find out
-                        what are the 10 most popular anime of their respective year. The API is grabbed from
-                        MyAnimeList.net and will automatically update based on new anime released for future years.</p>
+               <div class="proj3" id="project">
+                  <img src="./assets/jsproject2.png"
+                        alt="on load image of eric howell's site top 10 anime">
+                  <div class="latest-work-info id3">
+                     <p><span>Top 10 Anime</span> 17 February 2021</p>
+                     <p>HTML | CSS | JQUERY</p>
+                     <p>Find out what are the 10 most popular anime of their respective year, site will automatically update.
+                     </p>
+                     <div class="code-buttons" id="project">
+                        <a href="https://rixtrixx.github.io/Top-10-anime/">LIVE</a>
+                        <a href="https://github.com/RixTrixx/Top-10-anime">CODE</a>
+                     </div>
                   </div>
                </div>
 
-               <div>
-                  <a href="https://concert-accountant.netlify.app/"><img src="./assets/project4.png"
-                        alt="on load image of eric howell's site concert accountant"></a>
-                  <div class="latest-work-info">
-                     <p>2 July 2021</p>
-                     <p>This was a site created by myself and a group of peers through REACT and uses FIREBASE. We
-                        gather our information from the TicketMaster API. Through our site users can make a personalized
-                        list including a budget in order to make a list.They are also able to have their lists be added
-                        alongside other user lists! </p>
+               <div class="proj4" id="project">
+                  <img src="./assets/project4.png"
+                        alt="on load image of eric howell's site concert accountant">
+                  <div class="latest-work-info id4">
+                     <p><span>Concert Accountant</span> 2 July 2021</p>
+                     <p>Group Programing | React | Firebase | JSX | CSS</p>
+                     <p> Users can make a personalized
+                        list from the TicketMaster API that includes a budget. Add your lists alongside other user lists!</p>
+                        <div class="code-buttons">
+                           <a href="https://concert-accountant.netlify.app/">LIVE</a>
+                           <a href="https://github.com/Accountant-of-the-concert-variety/Concert-Accountant">CODE</a>
+                        </div>
                   </div>
                </div>
 
-               <div>
-                  <a href="https://rixtrixx.github.io/eric-howell-project1/"><img src="./assets/project1.png"
-                        alt="on load image of eric howell's site under the sea"></a>
-                  <div class="latest-work-info">
-                     <p>21 May 2021</p>
-                     <p>This is a responsive multi-page website that showcases a good foundation on HTML, CSS, and JS.
-                        The first project assigned to me in Bootcamp that was particulary fun to make!</p>
+               <div class="proj5" id="project">
+                  <img src="./assets/project1.png"
+                        alt="on load image of eric howell's site under the sea">
+                  <div class="latest-work-info id5">
+                     <p><span>Under The Sea</span> 21 May 2021</p>
+                     <p>HTML | CSS | JS</p>
+                     <p> The Multi-page website, where we were tasked in class to recreate a PSD into a functional site!</p>
+                     <div class="code-buttons">
+                        <a href="https://rixtrixx.github.io/eric-howell-project1/">LIVE</a>
+                        <a href="https://github.com/RixTrixx/eric-howell-project1">CODE</a>
+                     </div>
                   </div>
                </div>
 
-               <div>
-                  <a href="https://rixtrixx.github.io/eric-howell-project2/"><img src="./assets/project2.png"
-                        alt="on load image of eric howell's site one piece chaptor selector"></a>
-               </div>
-               <div class="latest-work-info">
-                  <p>11 June 2021</p>
-                  <p>This was a pair programing project, using JS and grabbing from the OnePieceCovers API. A fully
-                     functional site that was a personal project I had always wanted to complete. This site can allow
-                     users to search specific chapters/arcs in the series and be given an accurate summarization of each
-                     chapter.</p>
+               <div class="proj6" id="project">
+                  <img src="./assets/project2.png"
+                        alt="on load image of eric howell's site one piece chaptor selector">
+                     <div class="latest-work-info id6">
+                        <p><span>One Piece Chaptor Selector</span> 11 June 2021</p>
+                        <p>Pair Programing | HTML | CSS | JS | SASS</p>
+                        <p>This site can allow users to search specific chapters/arcs in the series and be given an accurate summarization
+                           of each chapter to help them find specific moments throughout the 1000 chapter saga.</p>
+                        <div class="code-buttons">
+                           <a href="https://rixtrixx.github.io/eric-howell-project2/">LIVE</a>
+                           <a href="https://github.com/RixTrixx/eric-howell-project2">CODE</a>
+                        </div>
+                     </div>
                </div>
             </div>
          </div>
@@ -142,11 +198,12 @@
       <section class="skills-all">
          <div class="skills" id="skills">
             <div class="section-header">
-               <h2>What I Can <span>Do</span></h2>
+               <h2>What I Can <span>Do</span><img src="/assets/christmas-stars.png"
+                     alt="red stars coming of of the header like magic"></h2>
                <h3>Skills</h3>
             </div>
 
-            <div class="web-skills">
+            <div class="web-skills wrapper">
                <div class="skills-1">
                   <i class="fab fa-html5"><span class="sr-only">html logo</span> </i>
                   <p>HTML</p>
@@ -188,38 +245,50 @@
       <section class="about-me-all">
          <div class="about-me" id="about-me">
             <div class="section-header">
-               <h2>About <span>Me</span></h2>
+               <h2>About <span>Me</span><img src="/assets/christmas-stars.png"
+                     alt="red stars coming of of the header like magic"></h2>
                <h3>Bio</h3>
             </div>
 
-            <div class="resume">
+            <div class="resume wrapper">
                <div class="outer-circle">
                   <div class="about-links">
-                     <img src="" alt="">
-                     <ul>
-                        <li><a href="https://twitter.com/EricHow311"><i class="fab fa-twitter-square"><span class="sr-only">twitter</span></i></a></li>
-                        <li><a href="https://github.com/RixTrixx"><i class="fab fa-github-square"><span class="sr-only">github</span></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/eric-howell-513656b9/"><i class="fab fa-linkedin"><span class="sr-only">linkedin</span></i></a></li>
-                        <li><a href="https://www.facebook.com/eric.howell.98"><i class="fab fa-facebook-square"><span class="sr-only">facebook</span></i></a></li>
-                     </ul>
-                     <p>Follow On</p>
+                     <img src="./assets/jsproject2.png" alt="Eric Howell hard at work on his laptop">
+                     <div>
+                        <ul>
+                           <li><a href="https://twitter.com/EricHow311"><i class="fab fa-twitter"><span
+                                       class="sr-only">twitter</span></i></a></li>
+                           <li><a href="https://github.com/RixTrixx"><i class="fab fa-github-square"><span
+                                       class="sr-only">github</span></i></a></li>
+                           <li><a href="https://www.linkedin.com/in/eric-howell-513656b9/"><i
+                                    class="fab fa-linkedin"><span class="sr-only">linkedin</span></i></a></li>
+                           <li><a href="https://www.facebook.com/eric.howell.98"><i class="fab fa-facebook-square"><span
+                                       class="sr-only">facebook</span></i></a></li>
+                        </ul>
+                        <p>Follow On</p>
+                     </div>
                   </div>
                </div>
 
                <div class="about-resume">
                   <div class="about-button-sections">
-                     <li><button>About Eric</button></li>
-                     <li><button>Education</button></li>
-                     <li><button>Soft Skills</button></li>
+                     <li><button id="eric-button">About Eric</button></li>
+                     <li><button id = "edu-button">Education</button></li>
+                     <li><button id="soft-button">Soft Skills</button></li>
                   </div>
 
                   <div>
                      <div class="about-eric">
-                        <p>The constant ever-changing environment of customer-service, that I spent my entire adulthood in, transitioned over into web development perfectly. It was harmonious. The hustle and bustle that this coding lifestyle is, is something that I can’t seem to get enough of. The
-                        problem solving aspects that I spent over a decade on in customer service, dealing with many individual people at a time, all in a effective
-                        time manner, is the same mindset I go in with to my coding. No matter what the problem, I will not rest until I have
-                        solved whatever issue may occur within my code, all the while maintaining that positive attitude I curated during my
-                        years in the customer service field!</p>
+                        <p>The constant ever-changing environment of customer-service, that I spent my entire adulthood
+                           in, transitioned over into web development perfectly. It was harmonious. The hustle and
+                           bustle that this coding lifestyle is, is something that I can’t seem to get enough of. The
+                           problem solving aspects that I spent over a decade on in customer service, dealing with many
+                           individual people at a time, all in a effective
+                           time manner, is the same mindset I go in with to my coding. No matter what the problem, I
+                           will not rest until I have
+                           solved whatever issue may occur within my code, all the while maintaining that positive
+                           attitude I curated during my
+                           years in the customer service field!</p>
                      </div>
 
                      <div class="education">
@@ -266,20 +335,32 @@
                   </div>
 
                   <div class="download-buttons">
-                     <a href="./assets/Eric Howell Cover Letter.pdf" download="Eric Howell Cover Letter">
-                        <button type="button">Download CV Letter</button></a>
-
-                     <a href="./assets/Eric Howell Resume.pdf" download="Eric Howell Resume">
-                        <button type="button">Download Resume</button></a>
+                     <div class="download-link">
+                        <a href="./assets/Eric Howell Cover Letter.pdf" download="Eric Howell Cover Letter">
+                           <div class="inner" type="button">
+                              <div>
+                                 Download CV Letter
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="download-link">
+                        <a href="./assets/Eric Howell Resume.pdf" download="Eric Howell Resume">
+                           <div class="inner" type="button">
+                              <div>
+                                 Download Resume
+                              </div>
+                           </div>
+                        </a>
+                     </div>
                   </div>
                </div>
             </div>
-         </div>
       </section>
 
-      <section class="contact all">
-      <div class="map"></div>
-         <div class="contact" id="contact">
+      <section class="contact-all">
+         <div class="map"></div>
+         <div class="contact wrapper" id="contact">
             <div class="contact-info">
                <h2>Get In Touch</h2>
                <p>Please feel free to reach out at any of the follow social links or contact info specified!</p>
@@ -301,17 +382,19 @@
 
             <div class="contact-mail">
                <h2>Send A Message</h2>
-               <form method="post">
+               <form method="POST" class="contact-form">
+                  <label for="message" class="sr-only">message</label>
+                  <textarea name="message" id="message" cols="40" rows="4"
+                     placeholder="Your Message Here..."></textarea>
+
+
                   <label for="name" class="sr-only">name</label>
-                  <input type="text" name="use-name" id="name" placeholder="Name">
+                  <input type="text" name="use-name" id="name" placeholder="Your Full Name">
 
                   <label for="email" class="sr-only">email</label>
-                  <input type="email" name="user-email" id="email" placeholder="Email address">
+                  <input type="email" name="user-email" id="email" placeholder="Your Email">
 
-                  <label for="message" class="sr-only">message</label>
-                  <textarea name="message" id="message" cols="40" rows="4" placeholder="Message"></textarea>
-
-                  <input type="button" value="Send Email" onclick="sendEmail()" />
+                  <button type="submit" >send</button>
                </form>
             </div>
          </div>
@@ -319,18 +402,13 @@
    </main>
 
    <footer>
-      <div class="footer-links">
-         <h2>ERIC HOWELL</h2>
-         <ul>
-            <li><a href="https://twitter.com/EricHow311"><i class="fab fa-twitter-square"><span class="sr-only">twitter</span></i></a></li>
-            <li><a href="https://github.com/RixTrixx"><i class="fab fa-github-square"><span class="sr-only">github</span></i></a></li>
-            <li><a href="https://www.linkedin.com/in/eric-howell-513656b9/"><i class="fab fa-linkedin"><span class="sr-only">linkedin</span></i></a></li>
-            <li><a href="https://www.facebook.com/eric.howell.98"><i class="fab fa-facebook-square"><span class="sr-only">facebook</span></i></a></li>
-         </ul>
+      <div class="footer-links wrapper">
+         <img src="./assets/footer-logo.png" alt="Eric Howell logo">
       </div>
       <p>&copy; Juno College 2021</p>
    </footer>
 
    <script src="script.js"></script>
 </body>
+
 </html>

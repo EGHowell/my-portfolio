@@ -1,0 +1,136 @@
+header {
+   background-image: linear-gradient($dark-purple, $pink);
+   height: 100vh;
+   border-bottom-right-radius:50% ;
+   border-bottom-left-radius: -150px;
+}
+
+header nav {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   img {
+      width: 100px;
+   }
+   ul {
+      display: flex;
+      li {
+         margin-right: 40px;
+         font-size: 20px;
+         a, i {
+            color: white;
+         }
+      }
+   }
+}
+
+.nav-bar li a:hover:after{
+   content: ""; 
+   display: block; 
+   margin: 0 auto; 
+   width: 80%;
+   padding-top: 5px; 
+   border-bottom: 3px solid $red;
+}
+
+header nav img {
+   margin-top: 15px;
+}
+
+.icons li{
+   margin-right:10px;
+   i {
+      font-size: 25px;
+   }
+}
+
+.icons li i:hover,
+.icons li li:focus {
+   color: $red;
+   border-bottom: 1px solid white;
+}
+
+header h1 {
+   font-size: 65px;
+   color: white;
+   -webkit-text-stroke: .3px black;
+}
+
+header h1 span {
+   background-color: white;
+   border-radius: 45px;
+   color: $dark-purple;
+   padding: 0px 20px;
+   box-shadow: 3px 3px .4em $footer-purple;
+   border: 1px solid black;
+   padding-right: 60px;
+}
+
+header h2 {
+   font-family: 'lora', serif;
+   font-size: 40px;
+   color: white;
+   -webkit-text-stroke: .3px black;
+}
+
+header p {
+   color: white;
+}
+
+.header-main {
+   display: flex;
+   margin-top: 100px;
+}
+
+.intro-info {
+   width: 50%;
+}
+
+.intro-img {
+   background-color: $dark-pink;
+   width: 50%;
+   border-top-left-radius: 10% ;
+   border-top-right-radius: 10%;
+   border-bottom-right-radius: 90%;
+   border-bottom-left-radius: 90%;
+   border: 3px solid black;
+   div {
+      margin: 20px;
+   }
+}
+
+.intro-img img {
+   border-top-left-radius: 10% ;
+   border-top-right-radius: 10%;
+   border-bottom-right-radius: 90%;
+   border-bottom-left-radius: 90%;
+}
+
+.intro-buttons {
+   display: flex;
+   margin-top: 50px;
+}
+
+.intro-buttons a div {
+   border: 2px solid white;
+   padding: 5px 45px;
+   border-radius: 5px;
+}
+
+.intro-buttons a {
+   border: 2px solid white;
+   border-radius: 5px;
+   padding: 10px 15px;
+   color: white;
+}
+
+.intro-buttons a:nth-child(2) {
+   margin-left: 50px;
+}
+
+
+.intro-buttons a:hover,
+.intro-buttons a:focus {
+   background-color: white;
+   color: $dark-purple;
+}

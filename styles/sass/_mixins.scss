@@ -1,5 +1,27 @@
-// Example
+// 'Lora", serif;
+// 'Roboto', sans-serif;
 
+@mixin links {
+
+}
+
+@mixin main-h2{
+   font-size: 40px;
+   color: black;
+}
+
+@mixin h3 {
+   display: inline-block;
+   color: white;
+   background-color: $footer-purple;
+   border-radius: 45px;
+   padding: 5px 30px;
+   width: auto;
+}
+
+@mixin contact {
+
+}
 // @mixin h1 {
 //     font-family: 'ONE PIECE', sans-serif;
 //     font-size: 55px;

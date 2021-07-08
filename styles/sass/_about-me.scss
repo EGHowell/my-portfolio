@@ -1,0 +1,168 @@
+.resume {
+display: flex;
+margin-top: 50px;
+margin-bottom: 100px;
+}
+
+.outer-circle {
+   width: 50%;
+}
+
+.about-links {
+   position: relative;
+}
+
+.about-links img{
+   border-radius: 50%;
+   width: 90%;
+   border-top: 50px solid $footer-purple;
+   border-bottom: 50px solid $footer-purple;
+   border-left: 50px solid $footer-purple;
+   border-right:50px solid WHITE;
+   padding: 20px;
+}
+
+.about-links div {
+   position: absolute;
+   background-color: $light-purple2;
+   border-bottom-left-radius: 50%;
+   border-bottom-right-radius: 50%;
+   bottom: 10px;
+   width: 35%;
+   left: 27%;
+   bottom: 15%;
+   color: white;
+   p {
+      text-align: center;
+      font-family: 'Lora', serif;
+      margin: 3px;
+   }
+}
+
+.about-links ul {
+   display: flex;
+   padding-left: 0;
+   justify-content: center;
+   margin: 5px;
+   li a {
+      color: $dark-purple;
+      padding: 5px;
+   }
+}
+
+.about-links li a:hover,
+.about-links li a:focus {
+   color: $red;
+}
+
+
+.about-resume {
+   width: 50%;
+   padding: 80px 40px;
+   box-shadow: .1px .1px 15px $footer-purple;
+   border-radius: 5%;
+   position: relative;
+   p {
+      padding: 40px 40px;
+   }
+}
+
+.about-button-sections {
+   display: flex;
+   li {
+      margin-right: 40px;
+      height: 20px;
+      button {
+         background-color: white;
+         border: none;
+         color: $dark-grey;
+         font-size: 25px;
+      }
+   }
+}
+
+.about-button-sections button:hover,
+.about-button-sections button:focus {
+   color: $dark-purple;
+}
+
+.about-button-sections button:hover:after {
+   content: ""; 
+   display: block; 
+   margin: 0 auto; 
+   width: 60%;
+   border-bottom: 5px solid $red;
+}
+
+.education {
+   display: none;
+      li {
+         margin: 40px 0;
+         p span {
+            font-weight: bold;
+            color: $red;
+      }
+         p {
+            margin:5px;
+            padding: 0;
+      }
+   }
+}
+
+.education ul {
+   margin: 80px 0;
+}
+
+.soft-skills {
+   display: none;
+   p {
+      margin-top: 20px;
+      margin-bottom: 5px;
+      padding: 0;
+   }
+}
+
+.soft-skills ul {
+   padding-top: 10px;
+}
+.soft-skills li {
+   list-style-type: disc;
+}
+
+.soft-skills li:after{
+   content: ""; 
+   display: block; 
+   width: 70%;
+   padding-top: 5px; 
+   border-bottom: 2px solid $red;
+}
+
+
+.download-buttons {
+   display: flex;
+   position: absolute;
+   bottom: 40px;
+}
+
+.download-link {
+   margin: 0px 20px;
+}
+
+.download-link .inner div {
+   border: 2px solid $dark-purple;
+   padding: 5px 35px;
+   border-radius: 5px;
+}
+
+.download-link .inner {
+   border: 2px solid $dark-purple;
+   border-radius: 5px;
+   padding: 10px 15px;
+   color: $dark-purple;
+}
+
+.download-link .inner:hover,
+.download-link .inner:focus {
+   background-color: $dark-purple;
+   color: white;
+}
