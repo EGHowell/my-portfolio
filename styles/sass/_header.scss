@@ -51,7 +51,7 @@ header nav img {
 }
 
 header h1 {
-   font-size: 65px;
+   font-size: 45px;
    color: white;
    -webkit-text-stroke: .3px black;
 }
@@ -68,7 +68,7 @@ header h1 span {
 
 header h2 {
    font-family: 'lora', serif;
-   font-size: 40px;
+   font-size: 30px;
    color: white;
    -webkit-text-stroke: .3px black;
 }
@@ -79,7 +79,8 @@ header p {
 
 .header-main {
    display: flex;
-   margin-top: 100px;
+   justify-content: space-between;
+   margin-top: 20px;
 }
 
 .intro-info {
@@ -88,18 +89,20 @@ header p {
 
 .intro-img {
    background-color: $dark-pink;
-   width: 50%;
+   width: 35%;
    border-top-left-radius: 10% ;
    border-top-right-radius: 10%;
-   border-bottom-right-radius: 90%;
-   border-bottom-left-radius: 90%;
-   border: 3px solid black;
+   border-bottom-right-radius: 80%;
+   border-bottom-left-radius: 80%;
+   border: 1px solid $dark-purple;
+   box-shadow: 2px 2px .4em $footer-purple;
    div {
-      margin: 20px;
+      margin: 10px;
    }
 }
 
 .intro-img img {
+   width: 100%;
    border-top-left-radius: 10% ;
    border-top-right-radius: 10%;
    border-bottom-right-radius: 90%;
@@ -108,7 +111,7 @@ header p {
 
 .intro-buttons {
    display: flex;
-   margin-top: 50px;
+   margin-top: 40px;
 }
 
 .intro-buttons a div {
