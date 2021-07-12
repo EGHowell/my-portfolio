@@ -11,6 +11,7 @@ header nav {
    justify-content: space-between;
    img {
       width: 100px;
+      margin-top: 15px;
    }
    ul {
       display: flex;
@@ -33,10 +34,6 @@ header nav {
    border-bottom: 3px solid $red;
 }
 
-header nav img {
-   margin-top: 15px;
-}
-
 .icons li{
    margin-right:10px;
    i {
@@ -49,6 +46,7 @@ header nav img {
    color: $red;
    border-bottom: 1px solid white;
 }
+
 
 header h1 {
    font-size: 45px;
@@ -84,12 +82,16 @@ header p {
 }
 
 .intro-info {
-   width: 50%;
+   width: 60%;
+}
+
+.img-container {
+   width: 35%;
 }
 
 .intro-img {
-   background-color: $dark-pink;
-   width: 35%;
+   background-color: transparent;
+   width: 100%;
    border-top-left-radius: 10% ;
    border-top-right-radius: 10%;
    border-bottom-right-radius: 80%;

@@ -11,17 +11,17 @@ margin-bottom: 100px;
 
 .about-links {
    position: relative;
+   width: 100%;
 }
 
 .about-links img{
    border-radius: 50%;
    width: 100%;
-   height: 60vh;
-   border-top: 50px solid $footer-purple;
-   border-bottom: 50px solid $footer-purple;
-   border-left: 50px solid $footer-purple;
-   border-right:50px solid WHITE;
-   padding: 20px;
+   border-top: 35px solid $footer-purple;
+   border-bottom: 35px solid $footer-purple;
+   border-left: 35px solid $footer-purple;
+   border-right: 35px solid WHITE;
+   padding: 10px;
 }
 
 .about-links div {
@@ -59,7 +59,7 @@ margin-bottom: 100px;
 
 
 .about-resume {
-   width: 50%;
+   width: 60%;
    padding: 40px 20px;
    box-shadow: .1px .1px 15px $footer-purple;
    border-radius: 5%;
@@ -144,16 +144,19 @@ margin-bottom: 100px;
 .download-buttons {
    display: flex;
    margin-top: 20px;
+   width: 100%;
 }
 
 .download-link {
    margin: 0px 20px;
+   width: 50%;
 }
 
 .download-link .inner div {
    border: 2px solid $dark-purple;
    padding: 5px 35px;
    border-radius: 5px;
+   text-align: center;
 }
 
 .download-link .inner {

@@ -368,6 +368,7 @@ header nav {
 }
 header nav img {
   width: 100px;
+  margin-top: 15px;
 }
 header nav ul {
   display: -webkit-box;
@@ -389,10 +390,6 @@ header nav ul li a, header nav ul li i {
   width: 80%;
   padding-top: 5px;
   border-bottom: 3px solid #e91d61;
-}
-
-header nav img {
-  margin-top: 15px;
 }
 
 .icons li {
@@ -447,12 +444,16 @@ header p {
 }
 
 .intro-info {
-  width: 50%;
+  width: 60%;
+}
+
+.img-container {
+  width: 35%;
 }
 
 .intro-img {
-  background-color: #e100ff;
-  width: 35%;
+  background-color: transparent;
+  width: 100%;
   border-top-left-radius: 10%;
   border-top-right-radius: 10%;
   border-bottom-right-radius: 80%;
@@ -687,17 +688,17 @@ header p {
 
 .about-links {
   position: relative;
+  width: 100%;
 }
 
 .about-links img {
   border-radius: 50%;
   width: 100%;
-  height: 60vh;
-  border-top: 50px solid #7100e5;
-  border-bottom: 50px solid #7100e5;
-  border-left: 50px solid #7100e5;
-  border-right: 50px solid WHITE;
-  padding: 20px;
+  border-top: 35px solid #7100e5;
+  border-bottom: 35px solid #7100e5;
+  border-left: 35px solid #7100e5;
+  border-right: 35px solid WHITE;
+  padding: 10px;
 }
 
 .about-links div {
@@ -738,7 +739,7 @@ header p {
 }
 
 .about-resume {
-  width: 50%;
+  width: 60%;
   padding: 40px 20px;
   -webkit-box-shadow: 0.1px 0.1px 15px #7100e5;
           box-shadow: 0.1px 0.1px 15px #7100e5;
@@ -828,16 +829,19 @@ header p {
   display: -ms-flexbox;
   display: flex;
   margin-top: 20px;
+  width: 100%;
 }
 
 .download-link {
   margin: 0px 20px;
+  width: 50%;
 }
 
 .download-link .inner div {
   border: 2px solid #7f00ff;
   padding: 5px 35px;
   border-radius: 5px;
+  text-align: center;
 }
 
 .download-link .inner {
@@ -987,4 +991,136 @@ footer img {
   display: block;
   margin: 0 auto;
   width: 65px;
+}
+
+@media (max-width: 1130px) {
+  .intro-buttons a div {
+    padding: 5px 15px;
+  }
+}
+@media (max-width: 885px) {
+  header nav img {
+    width: 60px;
+  }
+
+  header h1 {
+    font-size: 35px;
+  }
+
+  header h1 span {
+    display: block;
+    width: 275px;
+  }
+
+  header h2 {
+    font-size: 25px;
+  }
+
+  header p {
+    font-size: 17px;
+  }
+}
+@media (max-width: 740px) {
+  .intro-container {
+    width: 40%;
+  }
+
+  .intro-info {
+    margin-top: 40px;
+  }
+
+  header h1 {
+    margin: 5px 0px;
+  }
+
+  header h2 {
+    margin: 0;
+  }
+
+  .icons {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: absolute;
+    left: -30px;
+  }
+
+  .intro-buttons,
+.intro-buttons a {
+    display: block;
+    width: 180px;
+    text-align: center;
+  }
+
+  .intro-buttons a:nth-child(2) {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+}
+@media (max-width: 610px) {
+  header {
+    height: auto;
+    padding-bottom: 30px;
+  }
+
+  .nav-bar {
+    padding-left: 0;
+  }
+
+  header nav ul li {
+    margin-right: 25px;
+  }
+
+  header nav img {
+    position: relative;
+    left: 12px;
+  }
+}
+@media (max-width: 520px) {
+  .intro-info {
+    width: 100%;
+  }
+
+  .intro-img {
+    position: absolute;
+    width: 140px;
+    right: 25%;
+    top: 1%;
+    background-color: transparent;
+  }
+
+  .nav-bar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .nav-bar li {
+    margin-right: 5px;
+    margin-top: 10px;
+  }
+  .nav-bar li a {
+    font-size: 15px;
+  }
+
+  .nav-bar li a:hover::after {
+    display: none;
+  }
+
+  .nav-bar li a:hover {
+    color: #e91d61;
+  }
+}
+@media (max-width: 400px) {
+  .nav-bar {
+    display: none;
+  }
+
+  .intro-img {
+    right: 10%;
+  }
 }
