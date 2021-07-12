@@ -1,14 +1,27 @@
+// SIDE SCROLL
+
+function myFunction(x) {
+  x.classList.toggle("change");
+      if (document.querySelector(".scroll-menu").style.display === "block") {
+         document.querySelector(".scroll-menu").style.display = "none";
+       } else {
+         document.querySelector(".scroll-menu").style.display = "block";
+       }
+
+}
+
+
 // PROJECT HOVER
 
 document.querySelector(".proj1").addEventListener('mouseover', mouseOver);
 document.querySelector(".proj1").addEventListener('mouseout', mouseOut)
-
 function mouseOver() {
    document.querySelector(".id1").style.display = "block";
 }
 function mouseOut() {
    document.querySelector(".id1").style.display = "none";
 }
+
 
 document.querySelector(".proj2").addEventListener('mouseover', mouseOver2);
 document.querySelector(".proj2").addEventListener('mouseout', mouseOut2)
@@ -19,6 +32,7 @@ function mouseOut2() {
    document.querySelector(".id2").style.display = "none";
 }
 
+
 document.querySelector(".proj3").addEventListener('mouseover', mouseOver3);
 document.querySelector(".proj3").addEventListener('mouseout', mouseOut3)
 function mouseOver3() {
@@ -27,6 +41,7 @@ function mouseOver3() {
 function mouseOut3() {
    document.querySelector(".id3").style.display = "none";
 }
+
 
 document.querySelector(".proj4").addEventListener('mouseover', mouseOver4);
 document.querySelector(".proj4").addEventListener('mouseout', mouseOut4)
@@ -37,6 +52,7 @@ function mouseOut4() {
    document.querySelector(".id4").style.display = "none";
 }
 
+
 document.querySelector(".proj5").addEventListener('mouseover', mouseOver5);
 document.querySelector(".proj5").addEventListener('mouseout', mouseOut5)
 function mouseOver5() {
@@ -45,6 +61,7 @@ function mouseOver5() {
 function mouseOut5() {
    document.querySelector(".id5").style.display = "none";
 }
+
 
 document.querySelector(".proj6").addEventListener('mouseover', mouseOver6);
 document.querySelector(".proj6").addEventListener('mouseout', mouseOut6)

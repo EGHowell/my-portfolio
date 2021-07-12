@@ -296,12 +296,17 @@ main {
   position: relative;
 }
 
+.side-bar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
 .scroll-menu {
   position: sticky;
   top: 20px;
   background-color: #e100ff;
   width: 120px;
-  z-index: 10;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   margin-top: 20px;
@@ -347,6 +352,34 @@ main {
 
 .latest-work-all {
   margin-top: -120px;
+}
+
+.container {
+  display: none;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #e91d61;
+  margin: 6px 0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
 }
 
 header {
@@ -587,8 +620,8 @@ header p {
   padding: 0px 10px;
   color: white;
   background-color: #7f00ff;
-  border-bottom-left-radius: 14.5px;
-  border-bottom-right-radius: 14.5px;
+  border-bottom-left-radius: 3%;
+  border-bottom-right-radius: 3%;
   margin-left: 6px;
   margin-right: 6px;
   margin-bottom: 5px;
@@ -715,6 +748,7 @@ header p {
 .about-links div p {
   text-align: center;
   font-family: "Lora", serif;
+  font-size: 13px;
   margin: 3px;
 }
 
@@ -990,7 +1024,7 @@ footer ul {
 footer img {
   display: block;
   margin: 0 auto;
-  width: 65px;
+  width: 50px;
 }
 
 @media (max-width: 1130px) {
@@ -1122,5 +1156,197 @@ footer img {
 
   .intro-img {
     right: 10%;
+  }
+}
+@media (min-width: 980px) {
+  .scroll-menu {
+    display: inline-block;
+  }
+}
+@media (max-width: 950px) {
+  .scroll-menu {
+    display: none;
+    position: absolute;
+    -webkit-animation: fadeInLeft;
+            animation: fadeInLeft;
+    -webkit-animation-duration: 0.3s;
+            animation-duration: 0.3s;
+    top: 45px;
+  }
+
+  .container {
+    display: block;
+    position: absolute;
+    top: 25px;
+    left: 5px;
+  }
+
+  .latest-work-all {
+    margin-top: 0;
+  }
+
+  .proj1 {
+    grid-column: 1/7;
+  }
+
+  .proj2 {
+    grid-column: 7/13;
+  }
+
+  .proj3 {
+    grid-column: 1/7;
+  }
+
+  .proj4 {
+    grid-column: 7/13;
+  }
+
+  .proj5 {
+    grid-column: 1/7;
+  }
+
+  .proj6 {
+    grid-column: 7/13;
+  }
+}
+@media (max-width: 600px) {
+  .proj1,
+.proj2,
+.proj3,
+.proj4,
+.proj5,
+.proj6 {
+    grid-column: 2/12;
+  }
+}
+@media (max-width: 600px) {
+  .skills-1,
+.skills-2,
+.skills-3 {
+    width: 40%;
+  }
+
+  .web-skills p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 1000px) {
+  .about-button-sections li {
+    margin-right: 10px;
+  }
+
+  .about-button-sections li button {
+    font-size: 20px;
+  }
+
+  .download-link .inner div {
+    padding: 0;
+  }
+}
+@media (max-width: 850px) {
+  .resume {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 50px;
+  }
+
+  .outer-circle {
+    width: 300px;
+  }
+
+  .about-links img {
+    height: 300px;
+    position: relative;
+    bottom: 30px;
+  }
+
+  .about-resume {
+    width: 100%;
+  }
+
+  .education ul,
+.soft-skills ul {
+    padding-left: 0;
+  }
+}
+@media (max-width: 500px) {
+  .download-buttons {
+    margin-top: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .download-link:nth-child(2) {
+    margin-top: 20px;
+  }
+
+  .download-link a {
+    font-size: 15px;
+  }
+
+  .about-button-sections li {
+    margin-right: 0;
+  }
+}
+@media (max-width: 1200px) {
+  .contact-info {
+    left: 0;
+  }
+
+  .contact-mail {
+    left: 10%;
+  }
+}
+@media (max-width: 870px) {
+  .contact-mail {
+    left: 25px;
+  }
+
+  .contact-info h2 {
+    font-size: 30px;
+  }
+
+  .contact-info ul li i {
+    margin-right: 10px;
+  }
+
+  .contact-info p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 720px) {
+  .contact {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 40px;
+    bottom: 50px;
+  }
+
+  .contact-mail {
+    left: 0;
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+    margin-bottom: 25px;
+  }
+
+  .contact-info {
+    width: 100%;
+  }
+
+  .map {
+    height: 25vh;
   }
 }
