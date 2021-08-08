@@ -6,11 +6,39 @@
    height: 40vh;
 }
 
+.background-design5 {
+   z-index: 5;
+}
+
+.background-design5 .one {
+   position: absolute;
+   bottom: -15px;
+   left: 45%;
+}
+.background-design5 .two {
+   position: absolute;
+   right: 20px;
+   bottom: 40%;
+
+}
+.background-design5 .three {
+   position: absolute;
+   bottom: 0;
+   right: 0;
+}
+.background-design5 .four {
+   position: absolute;
+   top: 55%;
+  
+}
+
 .contact-all {
    background-color: $dark-purple;
+   position: relative;
 }
 
 .contact {
+   position: relative;
    background-color: white;
    display: flex;
    position: relative;

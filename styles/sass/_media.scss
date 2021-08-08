@@ -10,7 +10,11 @@
     header nav img {
         width: 60px;
     }
-
+    
+    .background-design .five {
+            display: none;
+    }
+    
     header h1 {
         font-size: 35px;
     }
@@ -66,6 +70,9 @@
 }
 
 @media (max-width: 610px) {
+    .background-design .three {
+        display: none;
+    }
     header {
         height: auto;
         padding-bottom: 30px;
@@ -141,6 +148,10 @@
 
 @media (max-width: 950px) {
   
+    .background-design2 .two {
+        top: 40%;
+        left: 0;
+    }
     .scroll-menu {
         display: none;
         position: absolute;
@@ -185,6 +196,19 @@
 }
 
 @media (max-width: 600px) {
+    .background-design2 {
+        .one {
+            top: 15%;
+            right: 2%;
+        }
+        .two {
+            top: 48%
+        }
+        .three {
+            bottom: 150px;
+        }
+    }
+
     .proj1,
     .proj2,
     .proj3,
@@ -198,6 +222,11 @@
 // SKILLS
 
 @media (max-width: 600px) {
+    .background-design3 .two {
+        top: 10%;
+        right: 5%;
+    }
+
     .skills-1,
     .skills-2,
     .skills-3 {
@@ -273,6 +302,11 @@
     .about-button-sections li {
         margin-right: 0;
     }
+
+    .background-design4 .two {
+        left: 5px;
+        bottom: 25px;
+    }
 }
 
 
@@ -305,7 +339,20 @@
        } 
 }
 
-@media (max-width: 720px) {
+@media (max-width: 770px) {
+    .background-design5 .one {
+        left: -60px;
+    }
+    .background-design5 .two {
+        bottom: 60%;
+        right: 10px;
+    }
+    .background-design5 .three {
+        right: -20px;
+    }
+    .background-design5 .four {
+        top: 40%;
+    }
     .contact {
         flex-direction: column;
         padding: 40px;

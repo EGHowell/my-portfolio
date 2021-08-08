@@ -1,3 +1,8 @@
+.latest-work-all {
+   position: relative;
+   z-index: 10;
+}
+
 .latest-work {
    padding-bottom: 70px;
    p {
@@ -22,7 +27,24 @@
    }
 }
 
-
+.background-design2 {
+   z-index: 5;
+}
+.background-design2 .one {
+   position: absolute;
+   top: 5%;
+   right: 5%;
+   z-index: -1;
+}
+.background-design2 .two {
+   position: absolute;
+   top: 20%
+}
+.background-design2 .three {
+   position: absolute;
+   bottom: -40px;
+   left: 5%
+}
 
 .proj1 {
    position: relative;
